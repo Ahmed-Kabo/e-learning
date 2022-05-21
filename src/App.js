@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Discussion from "./pages/Discussion";
 import Home from "./pages/Home";
-import Tasks from "./pages/Tasks";
+import Lessons from "./pages/Lessons";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}>
           <Route path="discussion" element={<Discussion />} />
-          <Route path="task" element={<Tasks />} />
+          <Route path="task" element={<Lessons />} />
         </Route>
       </Routes>
     </>
